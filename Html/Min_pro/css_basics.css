@@ -23,8 +23,8 @@ p{
    letter-spacing: 2px;
    text-indent: 30px;
 }
-img{
-  
+.a{
+  vertical-align: text-top;
 }
 .main2{
     background-color: rgb(3, 90, 22);
