@@ -9,26 +9,33 @@ section.main{
 }
 .right{
     float:right;
-    margin-right: 5%;
     margin-top: 1%;
 }
-.container{
+.flex-container{
+    display: flex;
     border: 5px solid green;
     padding: 8px;
     background-color: green;
+    justify-content: space-between;
+    
 }
 .left{
-    margin-left: 5%;
+    margin-left: 100%;
+    text-align: center;
+    margin-top: 0%;
 }
 .right-image{
     float: right;
     width: 160px;
-    margin-right: 10%;
+    margin-top: 10%;
+    margin-right: 200%;
+    margin-left: 100%;
+    
 }
 .text{
-    margin-left: 5%;
-    margin-bottom: 5%;
-    text-align: justify;
+    margin-left: 65%;
+    margin-bottom: 10%;
+    text-align: center;
     letter-spacing: 1px;
     text-indent: 2%;
 }
@@ -39,6 +46,9 @@ section.main{
     margin-left: 10%;
     margin-top: 0%;
     margin-bottom: 2%;
+}
+.flex-container1{
+    display: flex;
 }
 .F1{
    margin:  8% 6% 8%;
